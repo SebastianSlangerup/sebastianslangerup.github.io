@@ -1,0 +1,23 @@
+{
+  "name": "bulmaprojekt",
+  "version": "1.0.0",
+  "description": "First try working with Bulma to create a web user interface",
+  "main": "index.html",
+  "scripts": {
+    "test": "Standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianSlangerup/Bulma.git"
+  },
+  "author": "Sebastian Slangerup",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SebastianSlangerup/Bulma/issues"
+  },
+  "homepage": "https://github.com/SebastianSlangerup/Bulma#readme",
+  "dependencies": {
+    "bulma": "^0.9.1",
+    "jquery": "^3.5.1"
+  }
+}
