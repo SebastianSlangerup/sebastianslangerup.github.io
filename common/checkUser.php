@@ -30,7 +30,7 @@
 
             if ($count == 1) {
                 $_SESSION['login'] = 1;
-                header("location:../index.html");
+                header("location:../secretsite.html");
             }
             else {
                 echo "Forkert Brugernavn eller Password";
