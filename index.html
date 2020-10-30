@@ -14,26 +14,48 @@
             <div class="navbar-burger"></div>
         </div>
     </nav> -->
-    <section class="section">
-        <div class="navbar is-pulled-right">
-            <a href="common/login.html" class="button is-link is-rounded is-medium">Login</a>
+    <nav class="navbar is-dark has-shadow">
+        <div class="navbar-brand">
+            <div class="navbar-item is-size-4">
+                <b>Velkommen</b>
+            </div>
         </div>
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <a href="pdf/Ansøgning.pdf" class="navbar-item">Ansøgning</a>
+                <a href="pdf/CV.pdf" class="navbar-item">CV</a>
+            </div>
+        </div>
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="buttons">
+                    <a href="common/login.html" class="button is-link">Login</a>
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+    <section class="section">
         <div class="container">
             <h1 class="title">
-                Hello World!
+                Vestjysk Marketing
             </h1>
             <p class="subtitle">
-                My first website with <strong>Bulma</strong>!
+                En simpel hjemmeside designet med <strong>Bulma</strong>!
             </p>
-            <a href="https://bulma.io/" class="button is-success is-large is-rounded">Click here for cake!</a>
+            <a href="https://i1.theportalwiki.net/img/thumb/0/0a/Portal_Cake.png/200px-Portal_Cake.png" target="_blank" class="button is-success is-medium is-rounded">Click here for cake!</a>
             <br>
             <br>
             <div class="columns">
-                <div class="column"><p class="notification is-danger">Hej med jer, Vestjysk Marketing!</p></div>
-                <div class="column"><p class="notification is-warning">Jeg håber i syntes om min hjemmeside :)</p></div>
-                <div class="column"><p class="notification is-success">Længere nede kan i finde min ansøgning og mit CV!</p></div>
-                <div class="column"><p class="notification is-info">Med venlig hilsen...</p></div>
-                <div class="column"><p class="notification is-link">Sebastian Slangerup!</p></div>
+                <div class="column is-size-5">
+                    <p class="content">Hej med jer, Vestjysk Marketing!</p>
+                    <p class="content">Jeg har designet en hjemmeside til at vise jer mine færdigheder i web udvikling.</p>
+                    <p class="content">Hjemmesiden er bygget ved hjælp af et CSS Framework kaldet Bulma, og med et strejf af php. <br> Jeg har også sat to knapper til siden med ansøgning og cv, så I nemt kan gå til dem fra hjemmesiden af.</p>
+                    <p class="content">Min loginside er lavet med PHP og phpMyAdmin databasen. <br> Når en værdi bliver udfyldt i formen, bliver den compared med de værdier der er i databasen. <br> Hvis den finder én værdi som stemmer overens, så fortsætter den videre til en anden hjemmeside. <br> Hvis den ikke finder nogen værdi meddeler den, at brugernavn og password er forkert.</p>
+                    <p class="content">Selvfølgelig kan man altid bygge hjemmesiden op længere med f.eks en knap til at oprette en bruger, og en mere sikker måde at logge ind som undgår SQL injections og encrypter passwords, men så langt er jeg dog ikke i mit grundforløb :D</p>
+                    <p class="content">Men jeg ville kunne lære en hel masse nye ting som elev hos jer!</p>
+                </div>
             </div>
         </div>
 
@@ -42,7 +64,7 @@
         <footer class="footer">
             <div class="content has-text-centered level">
                 <a href="pdf/Ansøgning.pdf" target="_blank" class="button is-rounded is-focused is-link level-left is-large">Ansøgning</a>
-                <a href="" class="button is-rounded is-focused is-link level-right is-large">CV</a>
+                <a href="pdf/CV.pdf" class="button is-rounded is-focused is-link level-right is-large">CV</a>
             </div>
         </footer>
     </section>
